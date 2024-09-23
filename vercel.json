@@ -1,0 +1,29 @@
+{
+    "functions": {
+        "api/index.php": {
+            "runtime": "vercel-php@0.7.1"
+        }
+    },
+    "routes": [
+      {
+        "src": "/api/index.php",
+        "dest": "/api/index.php"
+      },
+      {
+        "src": "assets/login.php",
+        "dest": "/public/assets/login.php"
+      },
+      {
+        "src": "assets/game.php",
+        "dest": "/public/assets/game.php"
+      },
+      {
+        "src": "assets/bootstrap.php",
+        "dest": "/public/assets/bootstrap.php"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/api/index.php"
+      }
+    ]
+}
