@@ -10,16 +10,16 @@
         "dest": "/api/index.php"
       },
       {
-        "src": "login.php",
-        "dest": "login.php"
+        "src": "/login.php",
+        "dest": "/login.php"
       },
       {
-        "src": "game.php",
-        "dest": "game.php"
+        "src": "/game.php",
+        "dest": "/game.php"
       },
       {
-        "src": "bootstrap.php",
-        "dest": "bootstrap.php"
+        "src": "/bootstrap.php",
+        "dest": "/bootstrap.php"
       },
       {
         "src": "/(.*)",
