@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Priyanshu Maurya - Broken Rock Paper Scissors - 56d7e76b </title>
-<?php require_once "assets/bootstrap.php"; ?>
+<?php require_once "bootstrap.php"; ?>
 </head>
 <body>
 <div class="container">
@@ -11,11 +11,11 @@
 partially done and serves only as a starting point for the assignment.
 </p>
 <p>
-<a href="assets/login.php">Please Log In</a>
+<a href="login.php">Please Log In</a>
 </p>
 <p>
 Attempt to go to 
-<a href="assets/game.php">game.php</a> without logging in - it should fail with an error message.
+<a href="game.php">game.php</a> without logging in - it should fail with an error message.
 <p>
 <a href="http://www.wa4e.com/code/rps.zip"
  target="_blank">Source Code for this Application</a>

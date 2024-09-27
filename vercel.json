@@ -10,16 +10,16 @@
         "dest": "/api/index.php"
       },
       {
-        "src": "assets/login.php",
-        "dest": "/public/assets/login.php"
+        "src": "login.php",
+        "dest": "login.php"
       },
       {
-        "src": "assets/game.php",
-        "dest": "/public/assets/game.php"
+        "src": "game.php",
+        "dest": "game.php"
       },
       {
-        "src": "assets/bootstrap.php",
-        "dest": "/public/assets/bootstrap.php"
+        "src": "bootstrap.php",
+        "dest": "bootstrap.php"
       },
       {
         "src": "/(.*)",
