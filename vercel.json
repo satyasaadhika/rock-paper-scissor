@@ -1,36 +1,7 @@
 {
     "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.7.1"
-        },
-        "api/login.php": {
+        "api/*.php": {
             "runtime": "vercel-php@0.7.1"
         }
-    },
-    "routes": [
-      {
-        "src": "/api/index.php",
-        "dest": "/api/index.php"
-      },
-      {
-        "src": "/api/login.php",
-        "dest": "/api/login.php"
-      },
-      {
-        "src": "game.php",
-        "dest": "/game.php"
-      },
-      {
-        "src": "bootstrap.php",
-        "dest": "/bootstrap.php"
-      },
-      {
-        "src": "/(.*).png",
-        "dest": "/$1.png"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/api/index.php"
-      }
-    ]
+    }
 }
