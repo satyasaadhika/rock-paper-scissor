@@ -2,6 +2,9 @@
     "functions": {
         "api/index.php": {
             "runtime": "vercel-php@0.7.1"
+        },
+        "api/login.php": {
+            "runtime": "vercel-php@0.7.1"
         }
     },
     "routes": [
@@ -10,8 +13,8 @@
         "dest": "/api/index.php"
       },
       {
-        "src": "login.php",
-        "dest": "/login.php"
+        "src": "/api/login.php",
+        "dest": "/api/login.php"
       },
       {
         "src": "game.php",
